@@ -11,7 +11,7 @@ public class NumWords {
             x = x/10;
             tens = x%10;
             x = x/10;
-            hundreds = x%10;
+            hundreds = x;
             }
             else {
                 hundreds = 0;
