@@ -12,7 +12,7 @@ public class TimeFormat {
 		int hours = Integer.parseInt("" + args[0].charAt(0) + args[0].charAt(1));
 		// Does the same with the minutes part of the input.
 		int minutes = Integer.parseInt("" + args[0].charAt(3) + args[0].charAt(4));
-		
+
 		if (hours < 12){
 			if (hours < 10){
 				System.out.print(hours + ":" );
@@ -30,7 +30,7 @@ public class TimeFormat {
 				}
 			} 
 			}else{
-			System.out.print(hours + ":" );
+			System.out.print(hours-12 + ":" );
 			if (minutes < 10){
 				System.out.print("0" + minutes + " PM");
 			}else{
