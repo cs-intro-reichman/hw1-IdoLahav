@@ -24,7 +24,7 @@ public class NumWords {
                         tens = 0;
                         ones = x%10;
                     }
-        }
+                }
         System.out.println(hundreds + " hundreds, " + tens + " tens, and " + ones + " ones.");
 	}
 }
